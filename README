@@ -1,0 +1,23 @@
+MNIST Handwritten Digit Classification
+
+This is the very beginning project of mine in Neural Networks.
+This project is based on classifying hand written digits which
+are of resolution 28*28 using a Dense Neural Network Model. 
+
+Libraries Used
+1) Tensorflow
+2) Keras
+3) Numpy
+4) Matplotlib
+5) cv2
+6) os
+
+In this project I have used the MNIST Dataset of handwritten digits
+which is available on the interent. This Dataset can be directly used 
+with the help of tensorflow libraries and hence no extra csv file was 
+needed. I haved made 3 layers of neural network. The first and the
+second layer containing 128 neurons and its activation function as ReLu.
+The third layer consists of 10 neurons and its activation function as
+softmax. I have used the Adam optimiser for optimising the learning algo-
+rithm. Finally I used cv2 and os library to test the new set of handwritten
+digits. I was able to get an accuracy of 97% on the Test data.
